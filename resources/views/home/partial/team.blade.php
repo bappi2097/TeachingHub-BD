@@ -1,6 +1,6 @@
 <section id="team" class="team">
     <div class="container">
-        <div class="section-title" data-aos="fade-up">
+        {{-- <div class="section-title" data-aos="fade-up">
             <h2>Team</h2>
             <p></p>
         </div>
@@ -42,6 +42,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>

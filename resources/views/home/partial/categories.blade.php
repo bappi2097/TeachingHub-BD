@@ -2,14 +2,14 @@
     <section id="portfolio" class="portfolio section-bg">
         <div class="container">
             <div>
-                <h7>Search</h7>
+                {{-- <h7>Search</h7>
                 <form method="post" action="#" id="search_form">
                     <p>
                         <input class="search" type="text" name="search_field" value="Enter keywords....." />
                         <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px"
                             src="assets/img/search_2.png" alt="Search" title="Search" />
                     </p>
-                </form>
+                </form> --}}
             </div>
 
             <div class="row" data-aos="fade-up">
@@ -32,7 +32,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item {{$class->filter}}">
                     <div class="portfolio-wrap">
                         <img src="{{asset($category->image)}}" class="img-fluid" alt="" />
-                        <div class="portfolio-info">
+                        <div class="portfolio-info" style="opacity: 1;">
                             <h4>{{$category->title}}</h4>
                             {!! !empty($category->subtitle) ? "<p>".$category->subtitle."</p>" : ''!!}
                             <div class="portfolio-links">
@@ -52,3 +52,12 @@
         </div>
     </section>
 </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

@@ -1,4 +1,4 @@
-<section id="terms" class="faq section-bg">
+{{-- <section id="terms" class="faq section-bg">
     <div class="container">
         <div class="section-title" data-aos="fade-up">
             <h2>TERMS-POLICY</h2>
@@ -217,4 +217,4 @@
             </ul>
         </div>
     </div>
-</section>
+</section> --}}

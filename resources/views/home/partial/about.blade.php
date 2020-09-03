@@ -1,5 +1,9 @@
 <section id="about" class="about">
     <div class="container">
+        <div class="section-title" data-aos="fade-up">
+            <h2>About Us</h2>
+            <p></p>
+        </div>
         <div class="row">
             <div class="col-xl-6 col-lg-7" data-aos="fade-right">
                 <img src="assets/img/about1.jpg" class="img-fluid" alt="" />

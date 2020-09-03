@@ -9,19 +9,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
+                <li class="nav-item {{ url()->current()==route('home') ? 'active' : '' }}">
+                    <a class="nav-link" href="{{route('home')}}">Home</a>
+                </li>
+                <li class="nav-item {{ url()->current()==route('privacy-policy') ? 'active' : '' }}">
+                    <a class="nav-link" href="{{route('privacy-policy')}}">Privacy Policy</a>
+                </li>
+                <li class="nav-item {{ url()->current()==route('terms-and-condition') ? 'active' : '' }}">
+                    <a class="nav-link" href="{{route('terms-and-condition')}}">Terms & Condition</a>
+                </li>
+                <li class="nav-item {{ url()->current()==route('contact') ? 'active' : '' }}">
+                    <a class="nav-link" href="{{route('contact')}}">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#about">About Us</a>
                 </li>
             </ul>
         </div>
